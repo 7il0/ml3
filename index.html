@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ML-Shop</title>
+
+  <link rel="stylesheet" href="header.css" />
+  <link rel="stylesheet" href="home.css" />
+  <link rel="stylesheet" href="footer.css" />
+</head>
+<body>
+
+  <div id="header-placeholder"></div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Bienvenido a ML-Shop</h1>
+        <p>Descubre nuestros cursos interactivos de Machine Learning.</p>
+        <button id="btn-view-catalogo">Ver Catálogo</button>
+      </div>
+    </section>
+
+    <section class="featured">
+      <h2>Cursos Destacados</h2>
+      <div id="featured-courses" class="cards-container"></div>
+    </section>
+
+    <div id="course-dialog" class="dialog">
+      <div class="dialog-backdrop"></div>
+      <div class="dialog-content">
+        <button id="dialog-close">×</button>
+        <h3 id="dlg-title"></h3>
+        <p id="dlg-desc"></p>
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="header.js" defer></script>
+  <script src="footer.js" defer></script>
+  <script src="home.js" defer></script>
+</body>
+</html>
